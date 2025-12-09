@@ -201,7 +201,7 @@ public class Encryptor {
 
             PBEKeySpec keySpec = new PBEKeySpec(key.toCharArray());
             SecretKeyFactory keyFactory
-                    = SecretKeyFactory.getInstance("PBEWithMD5AndDES");
+                    = SecretKeyFactory.getInstance("test");
             SecretKey passwordKey = keyFactory.generateSecret(keySpec);
             
             byte[] salt = new byte[8];
