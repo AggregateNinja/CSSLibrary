@@ -741,31 +741,8 @@ public class DatabaseProperties
         return db_ipaddress;
     }
     
-    //public static  final String HOSTNAME = "premier";
-    //public static  final String HOSTNAME = "jdbc:mysql://68.195.194.148:3306/css";
-    //public static  final String HOSTNAME = "jdbc:mysql://192.168.1.20:3306/css";
-    //public static  final String HOSTNAME = "jdbc:mysql://10.0.1.210:3306/css";
-    //public static  final String HOSTNAME = "jdbc:mysql://50.77.155.225:3306/css";
-    //Vessel
-    //public static  final String HOSTNAME = "jdbc:mysql://70.43.37.166:3306/css";
-    //ALS
-    //public static  final String HOSTNAME = "jdbc:mysql://als:3306/css";
-    //LTC
-    //public static final String HOSTNAME = "jdbc:mysql://50.77.155.225:3306/css";
-    //CSSNew
-    //public static  final String HOSTNAME = "jdbc:mysql://10.0.0.8:3306/css";
-    //CLSCI
-    //public static  final String HOSTNAME = "jdbc:mysql://clsci:3306/css";
-    //Local
-    //public static  final String HOSTNAME = "jdbc:mysql://127.0.0.1:3306/css";
-    //PSO
-    //public static  final String HOSTNAME = "jdbc:mysql://pso:3306/css";
-    //public static  final String USERNAME = "appMaster";
-    //public static  final String PASSWORD = "css2009";
-    //public static  final int    CONNECTION_TIMEOUT = 300 * 1000;    // seconds to milliseconds
-    
     public static String getKey() {
-        return "raven29desk";
+        return "test";
     }
     
     @Override
